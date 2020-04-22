@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Turkey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <header>
+            <a href="#Contact">Contact</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Plans">Plans</a>
+            <a href="#Destinations">Destinations</a>
+            <a href="index.html">Home</a>
+        </header>
+    </header>
+    <!-- <img id="bg" src="Background.jpg" alt="" srcset="" > -->
+    <div class="hero-elements">
+        <p id="main-content">Hoş<br>Geldiniz!</p>
+        <p id="secondary-content">Welcome to Turkey!</p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img id="AS" src="HagiaSophia.jpg" alt="" onmouseover="changeContentAS()">
+            <h4>Hagia Sophia</h4>
+        </div>
+        <div class="card">
+            <img id="GK" src="GalataKulesi.jpg" alt="" onmouseover="changeContentGK()">
+            <h4>Galata Kulesi</h4>
+        </div>
+        <div class="card">
+            <img id="CD" src="Cappadocia.jpg" alt="" onmouseover="changeContentCD()">
+            <div><h4>Cappadocia</h4></div>
+            
+        </div>
+        <div class="card">
+            <img id="TP" src="TopkapiPalace.jpg" alt="" onmouseover="changeContentTP()">
+            <h4>Topkapi Palace</h4>
+        </div>
+        <div class="card">
+            <img id="PK" src="Pamukkale.jpg" alt="" onmouseover="changeContentPK()">
+            <h4>Pamukkale</h4>
+        </div>
+    </div>
+
+    <div id="info-container">
+        <div id="info" onmousemove="clearContent()">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
